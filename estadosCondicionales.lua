@@ -40,3 +40,14 @@ local name = "juanelo"
 if name ~= "juanelo" then
   print("no eres juanelo")
 end
+
+-- Combinacion de condicionales
+local x = 10
+local edad = 22
+
+if edad == 10 and x > 0 then
+  print('bebe!')
+elseif x == 18 or x > 18 then
+  print("apenitas!")
+end
+
