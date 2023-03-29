@@ -51,3 +51,9 @@ elseif x == 18 or x > 18 then
   print("apenitas!")
 end
 
+
+local isAlive = true
+
+if not isAlive then
+  print("Estas muerto :(")
+end
